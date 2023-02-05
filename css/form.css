@@ -1,0 +1,112 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: fit-content; */
+    background-color: lightblue;
+}
+.apple{
+    padding: 5px;
+    height: fit-content;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first{
+    height: fit-content;
+    width: 80%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.second{
+    color: gray;
+    /* background-color: rgb(245, 197, 245); */
+    font-size: 40px;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+   
+    /* background-color: greenyellow; */
+}
+.second:hover{
+color: orange;
+/* transform: scale(0.9); */
+
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.third{
+    /* padding: 10px; */
+    height:fit-content;
+    width: fit-content; 
+    /* background-color: red; */
+    display: grid;
+    
+    gap: 10px;
+    grid-template-columns: auto auto;
+}
+input{
+    border: none;
+color: black;
+    background-color:rgb(228, 225, 230);
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+input:hover{
+        background-color: rgba(129, 129, 133,.5);
+        transform: scale(0.9);
+
+}
+.fourth input{
+    background-color: rgb(228, 196, 243);
+    height:40px;
+    width: 99%;
+    border: none;
+
+
+}
+.fourth input:hover{
+    background-color: rgba(129, 129, 133,.5);
+    /* transform: scale(0.7); */
+
+}
+textarea{
+    background-color: rgb(199, 161, 216);
+border: none;
+    height:70px;
+    width: 99%;
+    border-radius: 5px;
+}
+textarea:hover{
+    background-color: rgb(129, 129, 133);
+    /* transform: scale(1.1); */
+
+}
+.sixth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    border: none;
+background-color: rgb(157, 137, 177);
+}
+button:hover{
+    transform: scale(1.1);
+}
+#oneerror,#twoerror,#threeerror,#fourerror,#fortherror,#fifterror{
+    color: red;
+}
+
